@@ -14,4 +14,7 @@ A query is designed to retrieve the last 12 months of precipitation data, and on
 
 The query results also loded into a Pandas DataFrame and the index is seted in to the date column, and sorted the DataFrame values by date.
 
-Finally the result ploted by using the DataFrame plot method.The plot looks as follows:.
+Finally the result ploted by using the DataFrame plot method.The plot looks as follows:
+
+![image](https://github.com/MdataHolman/sqlalchemy-challenge/assets/147290574/38073009-1a3f-472e-87ab-b057f16244e2)
+
