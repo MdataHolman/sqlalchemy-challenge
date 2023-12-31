@@ -25,3 +25,26 @@ A query is created to retrieve the last 12 months of temperature observation dat
 
 ![image](https://github.com/MdataHolman/sqlalchemy-challenge/assets/147290574/e5ca0a07-5aeb-40e9-b38b-da2c6fa540bd)
 
+Climate App
+This part of the project surfaces several SQLAlchemy precipitation and temperature queries in an API using a Python Flask app:
+
+/
+Home page
+/api/v1.0/precipitation
+Daily precipitation totals for last year
+/api/v1.0/stations
+Active weather stations
+/api/v1.0/tobs
+Daily Temperature Observations for Station USC00519281 for Last Year
+/api/v1.0/trip/yyyy-mm-dd
+Min, average & max temperatures for the range beginning with the provided start date through 08/23/17
+/api/v1.0/trip/yyyy-mm-dd/yyyy-mm-dd
+Min, average & max temperatures for the range beginning with the provided start - end date range
+It consists of:
+
+a SQLite database (Resources/Hawaii.sqlite)
+a Flask app (sqlalchemy-challenge/app.py).
+
+![image](https://github.com/MdataHolman/sqlalchemy-challenge/assets/147290574/aab38cde-55ca-401d-8049-6a5e51acd495)
+
+
